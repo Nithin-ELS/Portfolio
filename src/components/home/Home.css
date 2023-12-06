@@ -132,6 +132,7 @@ body{
   animation-fill-mode: both;
   animation-iteration-count: 1
 }
+
 .animate-float{
     animation-duration: 3s;
     animation-timing-function: ease;
