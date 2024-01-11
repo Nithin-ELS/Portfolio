@@ -36,21 +36,23 @@ export const About = () => {
                   Here are a few technologies I’ve been working with recently:
                 </div>
               </div>
+            </Fade>
+            <Fade direction="up" cascade triggerOnce="true" delay={200}>
               <span className="about-skills">
-                <ul>
-                  <li className="about-skills">
+                <ul className="about-skills-list">
+                  <li className="about-skills-item">
                     <span>▸</span>JavaScript
                   </li>
-                  <li className="about-skills">
+                  <li className="about-skills-item">
                     <span>▸</span>React.JS
                   </li>
-                  <li className="about-skills">
+                  <li className="about-skills-item">
                     <span>▸</span>Java
                   </li>
-                  <li className="about-skills">
+                  <li className="about-skills-item">
                     <span>▸</span>Angular
                   </li>
-                  <li className="about-skills">
+                  <li className="about-skills-item">
                     <span>▸</span>TypeScript
                   </li>
                 </ul>
