@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import { Fade } from "react-awesome-reveal";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -16,6 +17,7 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar scrolled">
         <nav className={open ? "item-container-active" : "item-container"}>
+        <Fade direction="down" delay={100} cascade duration={250} triggerOnce="true">
           <ul>
             <li className="navbar-item">
               <Link
@@ -78,6 +80,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          </Fade>
         </nav>
         <div
           className={open ? "hamburger active" : "hamburger"}
