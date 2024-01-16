@@ -71,7 +71,7 @@
     background: url(../../assets/img/mymemoji.jpg) center/cover;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-animation: profile_animate 8s ease-in-out 0s infinite;
+    -webkit-animation: profile-animate 8s ease-in-out 0s infinite;
     animation: profile-animate 8s ease-in-out 0s infinite;
     height: 300px;
     justify-self: center;
