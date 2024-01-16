@@ -11,7 +11,7 @@ html {
   z-index: 1;
   align-items: center;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease-in-out;
   /* transition: background 0.3s ease-out;  */
 }
 .navbar ul .navbar-item {
@@ -59,6 +59,10 @@ ul {
 .scrolled {
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
+  --tw-shadow: 0 10px 15px -3px rgba(199, 210, 254, 0.2),
+    0 4px 30px -4px rgba(199, 210, 254, 0.2);
+  box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .active {
