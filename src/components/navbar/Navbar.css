@@ -43,15 +43,15 @@ ul {
   left: 50%;
   position: absolute;
 
-  background: #a5b4fc;
+  background: #7087f8;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 .navbar nav ul li a:hover {
-  color: #a5b4fc;
+  color: #7087f8;
 }
 .navbar nav ul li a:hover:after {
-  color: #a5b4fc;
+  color: #7087f8;
   width: 100%;
   left: 0;
 }
@@ -62,7 +62,7 @@ ul {
 }
 
 .active {
-  color: #a5b4fc;
+  color: #7087f8;
 }
 
 .hamburger {
