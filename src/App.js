@@ -4,6 +4,7 @@ import { About } from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Contacts from "./components/contacts/Contacts";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contacts/>
+      <ScrollToTop/>
     </div>
   );
 }

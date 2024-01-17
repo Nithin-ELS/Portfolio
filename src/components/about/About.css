@@ -83,7 +83,6 @@
   }
 
   .about-wrapper {
-    /* text-justify: auto; */
     color: rgb(156, 163, 175);
     line-height: 3;
     font-weight: 400;
@@ -91,14 +90,12 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    /* margin: 0 100px 0 0; */
     flex-wrap: wrap;
     @media (min-width: 768px) and (max-width: 1023px) {
       flex-direction: column;
       max-width: 768px;
       width: 100%;
       gap: 50px;
-      /* margin: 0 0 100px 0; */
     }
 
     @media (max-width: 767px) {
@@ -106,7 +103,6 @@
       max-width: 640px;
       width: 100%;
       gap: 30px;
-      /* margin: 0 0 100px 0; */
     }
   }
 

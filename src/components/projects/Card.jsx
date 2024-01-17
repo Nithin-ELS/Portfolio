@@ -12,16 +12,16 @@ const ProjectCard = ({title, image, repoLink, liveLink}) => {
           </div>
           <div className="divider" />
           <div className="project-links">
-            <a href={repoLink} target="_blank">
+            <a href={repoLink} target="_blank" rel="noreferrer">
               <div className="project-repo">
                 <span>Repo</span>
               </div>
             </a>
-            <a href={liveLink} target="_blank">
+            {liveLink && <a href={liveLink} target="_blank" rel="noreferrer">
               <div className="project-live">
                 <span>Live</span>
               </div>
-            </a>
+            </a>}
           </div>
         </div>
       </div>

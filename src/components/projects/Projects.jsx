@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import portfolioImage from "../../assets/img/Home-desktop.png";
+import portfolioImage from "../../assets/img/Portfolio website.jpg";
 import ProjectCard from "./Card";
 import { Fade } from "react-awesome-reveal";
 
@@ -18,6 +18,7 @@ const Projects = () => {
           title="Portfolio Website"
           image={portfolioImage}
           repoLink="https://github.com/Nithin-ELS/Portfolio"
+          liveLink=""
         />
         <ProjectCard
           title="Core Banking System"

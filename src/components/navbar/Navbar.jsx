@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div id="navbar" className={`navbar ${Bg? 'scrolled' :''}`}>
+      <div id="navbar" className={`navbar ${open || Bg? 'scrolled' :''}`}>
         <nav className={open ? "item-container-active" : "item-container"}>
         <Fade direction="down" delay={100} cascade duration={250} triggerOnce="true">
           <ul>
@@ -76,14 +76,14 @@ const Navbar = () => {
             </li>
             <li className="navbar-item">
               <Link
-                to="Contacts"
+                to="contacts"
                 spy={true}
                 smooth={true}
                 duration={700}
                 offset={-150}
                 onClick={closeNavbar}
               >
-                Contacts
+                Contact
               </Link>
             </li>
           </ul>
