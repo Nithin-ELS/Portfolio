@@ -18,7 +18,7 @@ const Projects = () => {
           title="Portfolio Website"
           image={portfolioImage}
           repoLink="https://github.com/Nithin-ELS/Portfolio"
-          liveLink=""
+          liveLink="https://nithin-kumar-portfolio.vercel.app/"
         />
         <ProjectCard
           title="Core Banking System"
